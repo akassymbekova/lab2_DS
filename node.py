@@ -8,7 +8,6 @@ Endpoints:
   GET  /get?key=...
   POST /replicate  {"key":"...", "value":..., "ts": <lamport>, "origin":"A"}
   GET  /status
-
 """
 
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
